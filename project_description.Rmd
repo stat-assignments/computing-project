@@ -29,7 +29,7 @@ Your final project consists of a written report and a presentation (uploaded to 
 
 - Your written report should be approximately $2n + 1$ pages (or $450\times(2n + 1)$ words), where $n$ is the number of people in your group. The extra page is to allow you space to describe your dataset, methods, and conclusions. The report should be grammatically correct, factually correct, with appropriate references, including to the software packages you used to create it. 
 
-- Your presentation should include slides (made using beamer, xaringan, or another compiled document) that highlight the findings you have presented in your report. Each member of your group must participate in the presentation. Your presentation should be approximately $4\times(n+1)$ minutes long.
+- Your presentation should include slides (made using beamer, xaringan, or another compiled document) or a poster that highlight(s) the findings you have presented in your report. Each member of your group must participate in the presentation. Your presentation should be approximately $4\times(n+1)$ minutes long.
 
 - You will be expected to peer-evaluate two other groups presentations and/or reports. 
 
