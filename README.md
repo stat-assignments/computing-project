@@ -1,30 +1,15 @@
-Stat 850 Project Description
-================
-Firstname Lastname, Firstname Lastname, …
+---
+title: "Stat 850 Project"
+author: "Firstname Lastname, Firstname Lastname, ..."
+format: md
+---
 
-## Instructions
+[Project Guidelines](guidelines.md)
 
-Each member of your team should modify this document in some way and
-push their modifications to the repository in a separate commit. This
-will ensure that you have set your repository up in a way that ensures
-all group members are working with the same repository.
+[Project Proposal](proposal.qmd)
 
-Note that you must compile your readme (this document) for it to
-properly display as part of your github repository.
+[Project Presentation]() <!-- Add a link to your Youtube presentation -->
 
-Once you have received feedback on your project proposal (via Canvas)
-you may alter this README so that it describes your final project
-instead of the project proposal.
+[Presentation Visual Aid](slides.qmd) <!-- Change this to link to your visual aid -->
 
-## Data Set
-
-Provide a link to your dataset here, and a description of the variables
-in the data set.
-
-## Potential Topics to Explore Using the Data Set
-
-Describe avenues you might explore using the data
-
-## Group Members
-
-List all of the project contributors here.
+[Project Report](report.qmd)
