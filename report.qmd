@@ -54,6 +54,10 @@ Then, you can reference @fig-iris in the text and the appropriate cross-referenc
 
 You can find additional information about formatting figures generated from code in the [quarto documentation](https://quarto.org/docs/authoring/figures.html#computations).
 
+## Additional Exploration topic
+
+Add another topic here... as many as you desire, really. Make sure to include a transition between the two sections that connects the two with some sort of logical train of thought.
+
 ## Conclusion
 
 Here, you want to summarize the main points of what you've learned from this investigation, in paragraph form.
