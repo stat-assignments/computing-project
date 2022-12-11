@@ -69,4 +69,6 @@ If you want to know what the wordcount of your report is, you can run the follow
 
     pandoc --lua-filter wordcount.lua report.qmd
 
-Notice that I have not pushed `report.html` or the `report_files/` folder to github - this is intentional. If you *must*, you can push these documents right before you submit your project, but I'd far prefer it if you just let me compile these on my computer and never pushed them at all.
+Notice that I have not pushed `_output/report.html` or the `_output/report_files/` folder to github - this is intentional. I have actually set `_output` to not show up in git, to encourage you all to NOT push the rendered files to github and to instead work from the markdown files directly.
+
+You may find it cleaner to create a figure subdirectory and store any figures that aren't created by R/Python in that folder. I encourage you to organize this repository in a sensible way.
