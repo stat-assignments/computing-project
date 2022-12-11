@@ -4,7 +4,7 @@ author: "Firstname Lastname, Firstname Lastname, ..."
 format: md
 ---
 
-[Project Guidelines](guidelines.md)
+[Project Guidelines](guidelines.qmd)
 
 [Project Proposal](proposal.qmd)
 

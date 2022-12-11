@@ -1,9 +1,6 @@
 ---
-title: "Stat 850 Project Report"
-author: "Firstname Lastname, Firstname Lastname, ..."
 format: html
 editor: visual
-bibliography: references.bib
 ---
 
 ## Introduction

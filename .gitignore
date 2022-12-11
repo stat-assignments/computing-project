@@ -5,3 +5,6 @@
 *.tex
 *.markdown
 .DS_store
+.github
+_output/
+/.quarto/
