@@ -3,6 +3,35 @@ format: html
 editor: visual
 ---
 
+
+```{r setup, cache = F}
+# All dependencies are loaded in this chunk
+library(dplyr)
+library(remotes)
+library(emo)
+```
+
+```{r dependencies, eval = F}
+# This code chunk contains code to install all of the dependencies
+# necessary to compile and run your report, using if-statements to
+# reduce install time for unnecessary code.
+# It should be set to eval = F by default, so you aren't installing
+# software on someone's computer without their consent.
+
+# This works for packages that are on CRAN
+if (!"dplyr" %in% installed.packages()) {
+  install.packages("dplyr")
+}
+if (!"remotes" %in% installed.packages()) {
+  install.packages("remotes")
+}
+
+# This is how to do it for a package that's only on github
+if (!"emo" %in% installed.packages()) {
+  remotes::install_github("hadley/emo")
+}
+```
+
 ## Introduction
 
 Introduce your dataset and basic questions for exploration. Explain any unique approaches you will take or any interesting features of your dataset that you have to overcome. Cite the source of your dataset, and briefly discuss how it was collected.

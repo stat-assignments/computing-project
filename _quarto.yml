@@ -11,5 +11,10 @@ project:
     - slides.qmd
     - README.md
 
+execute:
+  echo: false
+  message: false
+  warning: false
+
 toc: true
 number-sections: true
