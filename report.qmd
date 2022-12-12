@@ -3,15 +3,7 @@ format: html
 editor: visual
 ---
 
-
-```{r setup, cache = F}
-# All dependencies are loaded in this chunk
-library(dplyr)
-library(remotes)
-library(emo)
-```
-
-```{r dependencies, eval = F}
+```{r, eval = F}
 # This code chunk contains code to install all of the dependencies
 # necessary to compile and run your report, using if-statements to
 # reduce install time for unnecessary code.
@@ -29,7 +21,11 @@ if (!"remotes" %in% installed.packages()) {
 # This is how to do it for a package that's only on github
 if (!"emo" %in% installed.packages()) {
   remotes::install_github("hadley/emo")
-}
+
+```
+
+```{r}
+
 ```
 
 ## Introduction
