@@ -92,7 +92,9 @@ Almost anything you might want to know about how to format output in quarto can 
 
 If you want to know what the wordcount of your report is, you can run the following command in your terminal:
 
-    pandoc --lua-filter wordcount.lua report.qmd
+```         
+pandoc --lua-filter wordcount.lua report.qmd
+```
 
 Notice that I have not pushed `_output/report.html` or the `_output/report_files/` folder to github - this is intentional. I have actually set `_output` to not show up in git, to encourage you all to NOT push the rendered files to github and to instead work from the markdown files directly.
 
