@@ -75,6 +75,12 @@ This only counts modifications to the markdown files, which ensures that whoever
 ## Project Report
 Your project report should:
 
+- be contained in `report.qmd`. Saving your report in a different file will result in a 10 point deduction.
+
+- use the `report.qmd` template file provided in the project repository to assemble your report. It contains demonstrations of all of the requirements above. If you don't want to overwrite this, save the template as `report-template.qmd` for reference and then edit `report.qmd`.
+
+- include a separate `requirements.txt` file where you list out the R and python packages required to compile your report and slides.
+
 - be approximately $450\times(2n + 1)$ words, where $n$ is the number of people in your group. The extra length is to allow you space to describe your dataset, methods, and conclusions; everyone will need to do that regardless of group size.    
 If you want to know what the wordcount of your report is, you can run the following command in your terminal (in the project directory, assuming you've cloned it from github classroom):
 
@@ -82,20 +88,18 @@ If you want to know what the wordcount of your report is, you can run the follow
 pandoc --lua-filter wordcount.lua report.qmd
 ```
 
-- be grammatically correct. Please feel free to make use of the [writing center](https://www.unl.edu/writing/) for editing, so that your report has appropriate grammar and structure.
+- be grammatically correct. Please feel free to make use of the [writing center](https://www.unl.edu/writing/) for editing, so that your report has appropriate grammar and structure.  
 
-- be factually correct, and should reference outside sources appropriately (see below)
+- contain an introduction and a conclusion, written in paragraphs. The "meat" of the report should tell a story. This means your report should be written and formatted as a paper - think about writing a journal article describing your data analysis and results. This means your writeup should contain paragraphs, and each figure should be cross-referenced within the text.
 
-- have a references section, using markdown's references functionality. You should not manually compile your bibliography - it should be created automatically using a bib file. 
+- be factually correct, and should reference outside sources appropriately (see below) using quarto references.
+
+- have a references section, using markdown's references functionality. You should not manually create your bibliography - it should be created automatically using a bib file. 
 
 - reference the software packages you've used in your analysis/report and cite them appropriately. Software is a scholarly work, and deserves to be cited. The `citation()` R command can help you assemble appropriate references for software packages.
 
-- contain an introduction and a conclusion, written in paragraphs. The "meat" of the report should tell a story.
 
 - use figures. Figures must have appropriate captions, and each figure should be referenced within the body of the paper using markdown reference syntax. 
-
-- use the `report.qmd` template file provided in the project repository to assemble your report. It contains demonstrations of all of the requirements above.
-
 
 ## Presentation
 
