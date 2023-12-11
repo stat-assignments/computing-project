@@ -1,0 +1,22 @@
+---
+title: "Pre-Submission Checklist"
+---
+
+Place an 'x' inside the [ ] for each task you have completed before you submit your project. Note, this checklist should be completed once you're happy with your project - it is a final check that everything works.
+
+
+- [ ] Clone your project to a new folder (ideally on a new computer) and compile it. Does it work?
+
+- [ ] Read through your report as an `html` file [(click here)](report.qmd) and ensure that all references, plots, captions, citations, and formatting looks the way you want it to look.
+
+- [ ] Ensure the names of all team members show up as authors on your report
+
+- [ ] Ensure that all outside figures are cited and show up in your report and/or slides.
+
+- [ ] Ensure that requirements.txt lists all R and python packages your project depends on.
+
+- [ ] Copy the text of your report into grammarly and ensure you address all major issues with grammar and spelling.
+
+- [ ] Check the guidelines - does your project meet these requirements?
+
+- [ ] Run wordcount.lua and ensure that your report is approximately the correct length. Edit this file to report the word count.

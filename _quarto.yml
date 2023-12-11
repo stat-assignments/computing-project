@@ -5,11 +5,12 @@ bibliography: references.bib
 project:
   output-dir: _output
   render:
+    - README.md
     - guidelines.qmd
     - proposal.qmd
     - report.qmd
     - slides.qmd
-    - README.md
+    - checklist.qmd
 
 execute:
   echo: false
