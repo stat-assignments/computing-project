@@ -1,6 +1,5 @@
 ---
 format: html
-editor: visual
 ---
 
 ```{r, eval = F}
